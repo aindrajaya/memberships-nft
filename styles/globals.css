@@ -358,8 +358,6 @@ line-height: 1.4em;
 
   }
   
-
-
 .color{
   display:block;
    width:0;
@@ -401,8 +399,14 @@ line-height: 1.4em;
   box-shadow: 0 0 0 2px white, 0 0 0 4px #11136c;
 }
 
+.logo-image{
+  margin-inline:1rem;
+  max-width: 50%;
+  height: auto;
+}
+
 /* Large screen styles (adjust breakpoint as needed) */
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .crossmintButton-d2-0-2-6 {
     font-size: 1.25rem;
     font-weight: bold;
@@ -411,14 +415,15 @@ line-height: 1.4em;
 }
 
 /* Small screen styles (adjust breakpoint as needed) */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .crossmintButton-d2-0-2-6 {
     padding: 0.75rem 3.75rem; /* Adjust these values for desired padding */
   }
+  .logo-image {
+    margin-inline: 0;
+    max-width: 70%;
+  }
 }
 
-.logo-image{
-  margin-inline:1rem;
-  max-width: 50%;
-  height: auto;
-}
+
+
