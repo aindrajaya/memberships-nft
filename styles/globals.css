@@ -371,7 +371,7 @@ line-height: 1.4em;
   background-color:transparent;
 }
 
-.crossmintButton-d2-0-2-6 {
+.xmint-btn {
   font-family:sans-serif;
   color:white;
   text-decoration:none;
@@ -387,14 +387,14 @@ line-height: 1.4em;
   transition:0.6s cubic-bezier(0.01, 1.69,    0.99, 0.94); 
 }
 
-.crossmintButton-d2-0-2-6:hover {
+.xmint-btn:hover {
   /* background-color: white; */
   color: #11136c;
   box-shadow: 3px 4.9px 16px rgba(27,139,249,0.6);
   letter-spacing:5px;
 }
 
-.crossmintButton-d2-0-2-6:focus {
+.xmint-btn:focus {
   outline: none;
   box-shadow: 0 0 0 2px white, 0 0 0 4px #11136c;
 }
@@ -407,7 +407,7 @@ line-height: 1.4em;
 
 /* Large screen styles (adjust breakpoint as needed) */
 @media (max-width: 1024px) {
-  .crossmintButton-d2-0-2-6 {
+  .xmint-btn {
     font-size: 1.25rem;
     font-weight: bold;
     padding: 0.75rem 2.5rem; /* Adjust these values for desired padding */
@@ -416,7 +416,7 @@ line-height: 1.4em;
 
 /* Small screen styles (adjust breakpoint as needed) */
 @media (max-width: 640px) {
-  .crossmintButton-d2-0-2-6 {
+  .xmint-btn {
     padding: 0.75rem 3.75rem; /* Adjust these values for desired padding */
   }
   .logo-image {

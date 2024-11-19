@@ -97,6 +97,7 @@ export default function Hero() { // Use the hooks thirdweb give us.
                             className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#11136c] bg-[#11136c] transition duration-150 ease-in-out hover:bg-white hover:text-[#11136c] lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-[#11136c] py-2 sm:py-4 text-sm btn text-center btnneon">
                             Connect your wallet</button>
                         <CrossmintPayButton collectionTitle="Artopologi Membership" collectionDescription="Artopologi NFT Membership"
+                            className="xmint-btn"
                             collectionId={process.env.NEXT_PUBLIC_CROSSMINT_COLLECTION_ID}
                             clientId={process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID}
                             projectId={process.env.NEXT_PUBLIC_CROSSMINT_PROJECT_ID}
@@ -173,6 +174,7 @@ export default function Hero() { // Use the hooks thirdweb give us.
                         className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#11136c] bg-[#11136c] transition duration-150 ease-in-out hover:bg-white hover:text-[#11136c] lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-[#11136c] py-2 sm:py-4 text-sm btn text-center btnneon">
                             Buy it</button>
                     <CrossmintPayButton collectionTitle="Artopologi Membership" collectionDescription="Artopologi NFT Membership"
+                        className="xmint-btn"
                         collectionId={process.env.NEXT_PUBLIC_CROSSMINT_COLLECTION_ID}
                         clientId={process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID}
                         projectId={process.env.NEXT_PUBLIC_CROSSMINT_PROJECT_ID}
@@ -201,5 +203,4 @@ export default function Hero() { // Use the hooks thirdweb give us.
 
         </div>
     );
-
 }
