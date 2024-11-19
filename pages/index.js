@@ -7,6 +7,5 @@ export default function Home() {
     <Layout className="bg-[#2E0249]">
       <Hero />
     </Layout>
-    
   )
 }
