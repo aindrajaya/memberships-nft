@@ -1,10 +1,11 @@
+import Image from "next/image";
+
 export default function Footer(){
     return (<div className="bg-[#ee0e6f]">
         <footer className="text-gray-200 body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-     
-    <img className="w-72 md:w-auto logo-image"  src="./arto.png" alt="logo" />
+      <Image className="w-72 md:w-auto logo-imge" src={"./arto.png"} alt="logo arto"/>
     </a>
     <p className="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Artopologo membership —
       <a href="https://x.com/artopologi" className="text-white ml-1" rel="noopener noreferrer" target="_blank">@artopologi</a>

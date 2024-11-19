@@ -1,6 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useRouter } from 'next/router'
 import React from "react";
+import Image from "next/image";
 
 
 export default function Header(props) {
@@ -12,7 +13,7 @@ export default function Header(props) {
       <nav className="w-full ">
     <div className="py-5 md:py-0  mx-auto px-6 flex items-center justify-between">
       <div aria-label="Home. logo" role="img">
-        <img className="logo-image"  src="./arto.png" alt="logo" />
+        <Image className="logo-image" src={"./arto.png"} alt="logo arto"/>
       </div>
       <div>
         
