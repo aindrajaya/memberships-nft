@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <html lang="en" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <title>Artopologi Membership</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="theme-color" content="#000000" />
